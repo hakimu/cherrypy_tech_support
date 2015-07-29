@@ -6,6 +6,5 @@ class HelloWorld(object):
         return "Hello World!"
     index.exposed = True
 
-cherrypy.quickstart(HelloWorld())
-
+app = cherrypy.Application(HelloWorld(), '/', config=None)
 
