@@ -1,4 +1,4 @@
-# This is a CherryPy app being serverved by uWSGI and Gunicorn.
+# This is a CherryPy app being served by uWSGI and Gunicorn.
 
 Here is the application object:
 
